@@ -157,7 +157,7 @@ export const ReactSketchCanvas = React.forwardRef<
       });
     },
     loadPaths: (paths: CanvasPath[]): void => {
-      setCurrentPaths((currentPaths) => [...currentPaths, ...paths]);
+      setCurrentPaths((currentPaths) => [...paths, ...currentPaths]);
     },
     getSketchingTime: (): Promise<number> => {
       return new Promise<number>((resolve, reject) => {
