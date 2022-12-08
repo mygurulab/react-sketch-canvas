@@ -5,10 +5,7 @@
   "author": "Vinoth Pandian",
   "homepage": "https://vinoth.info/react-sketch-canvas",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vinothpandian/react-sketch-canvas.git"
-  },
+  "repository": "https://github.com/vinothpandian/react-sketch-canvas.git",
   "keywords": [
     "react-component",
     "sketch",
@@ -114,11 +111,5 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  },
-  "bugs": {
-    "url": "https://github.com/vinothpandian/react-sketch-canvas/issues"
-  },
-  "directories": {
-    "example": "example"
   }
 }
